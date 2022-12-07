@@ -14,11 +14,9 @@ function Card(props){
                         <p>{props.title}</p>
                     </div>
                     <div className="btn">
-                        <a href={props.title}>Watch Now</a>
+                        <a href={props.link}>Watch Now</a>
                     </div>
                 </div>
-
-                
         </>
     )
 }

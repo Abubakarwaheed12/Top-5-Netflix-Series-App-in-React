@@ -18,6 +18,7 @@ h1{
     text-decoration: dotted;
     color: white;
     font-family: monospace;
+    padding-top: 10px;
 }
 .con{
     max-width: 1100px;
@@ -44,9 +45,11 @@ h1{
     transition: ease-in-out;
     transition-duration: 0.3s;
 }
-.img{
+.img img{
     width: 250px;
-    height: 150px;
+    height: 160px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
 }
 .btn{
     padding-top: 30px;
